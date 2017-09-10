@@ -1,0 +1,129 @@
+@import 'links';
+@import '../global/text';
+@import '../global/color';
+@import '../global/flex';
+@import '../global/font';
+@import 'responsive';
+@import '../global/reset';
+
+/*-------------------scss----------------------------------*/
+
+body{
+	background-color: white;
+	color: black;
+}
+
+.icon{
+	width: 5em;
+	
+}
+.cart{
+	
+}
+
+.info{
+    display: none;
+    position: fixed;
+    margin-left: -250px;
+    overflow: auto;
+    background-color: white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 1px 5000px;
+    top: 40%;
+    left: 50%;
+    width: 500px;
+    .btnclose{
+        background: $red-b-c;
+    }
+
+    
+}
+
+.counter{
+	background-color:#204734;
+	color:white;
+    top: 1px;
+}
+
+.category{
+	background-color: #61ab8a;
+}
+
+.top{
+	background: -webkit-linear-gradient(#809f90, white ,#809f90);
+}
+
+.manufacturer{
+	padding: 0rem 0rem 0.5rem 0rem;
+}
+
+.includedItem{
+	padding: 0rem 0rem 11rem 0em;
+}
+
+.price{
+	padding: 0rem 0rem 0.5rem 0rem;
+}
+
+button{
+	background-color: #61ab8a;
+	padding: 0;
+	border: none;
+	color:white;
+}
+button:hover{
+		color:#204734;	
+	}
+	
+.btnShop {
+	background: #50846d;
+	padding: 1rem 3rem 1rem 3rem;
+}	
+
+.subbtn{
+	background-color:#50846d ;
+	padding: 0;
+	border: none;
+	color:white;
+	padding :0.5rem 5rem;
+}
+ 
+
+.footer{
+	color:white;
+	background-color: #313131;
+}
+
+.sub-box{
+	width: 25rem;
+	padding :5px;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.caro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid black;
+    height: 10vh;
+    width: 30vw;
+    align-items: center;
+    margin: 1px;
+}
+
+.includedItem{
+    
+    height: 10vh;
+    width: 25vw;
+}
+
+
+
