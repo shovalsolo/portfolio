@@ -18,6 +18,8 @@ $color-green: #00FF00;
 
 $color-blue: #0000FF;
 
+$portfilio-blue:#0056b3; 
+
 /*-----------------background-color---------------------*/
 
 .bgcw{
@@ -71,13 +73,11 @@ $color-blue: #0000FF;
 .border-right-radius{
 	border-top-right-radius: 2em;
 	border-bottom-right-radius: 2em;
-	
 }
 
 .border-left-radius{
 	border-top-left-radius: 2em;
 	border-bottom-left-radius: 2em;
-	
 }
 
 
