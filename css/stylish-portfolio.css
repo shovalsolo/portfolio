@@ -190,17 +190,17 @@ hr.small {
 
 /* Services */
 
-.services {
+/* .services {
     padding: 50px 0;
 }
 
 .service-item {
     margin-bottom: 30px;
-}
+} */
 
 
 /* Callout */
-
+/* 
 .callout {
     display: table;
     width: 100%;
@@ -211,7 +211,7 @@ hr.small {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
 
 /* Portfolio */
@@ -235,18 +235,18 @@ hr.small {
 
 
 /* Call to Action */
-
+/* 
 .call-to-action {
     padding: 50px 0;
 }
 
 .call-to-action .btn {
     margin: 10px;
-}
+} */
 
 
 /* Map */
-
+/* 
 .map {
     height: 500px;
 }
@@ -259,7 +259,7 @@ hr.small {
 
 .map iframe {
     pointer-events: none;
-}
+} */
 
 
 /* Footer */
