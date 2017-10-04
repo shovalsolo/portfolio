@@ -80,4 +80,19 @@ $portfilio-blue:#0056b3;
 	border-bottom-left-radius: 2em;
 }
 
+/*----------Border---------------*/
+
+.border-all-ex-sml{
+	border: 1px solid black;	
+}
+
+
+.border-all-sml{
+	border: 3px solid black;	
+}
+
+.border-all{
+	border: 10px solid black;	
+}
+
 
