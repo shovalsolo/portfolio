@@ -5,13 +5,13 @@
  */
 
 
-@import "color";
-@import "flex";
-@import "font";
-@import "links";
-@import "reset";
-@import "responsive";
-@import 'text';
+@import "color.css";
+@import "flex.css";
+@import "font.css";
+@import "links.css";
+@import "reset.css";
+@import "responsive.css";
+@import "text.css";
 
 
 /* Global Styles */
