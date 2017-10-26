@@ -14,19 +14,20 @@
     <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet"> 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" rel="stylesheet"> 
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" rel="stylesheet"> -->
 
     <!-- Custom Fonts -->
     <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+	  <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+	<script src="js/script.js"></script>
 
   </head>
 
-  <body>
+  <body onload="apichucknorris()">
     <!-- Navigation -->
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
       <i class="fa fa-bars"></i>
@@ -67,6 +68,10 @@
         <!-- <h2>Solo-Tech Design</h2> -->
         <p class="lead">We will plan,design and build your site.</p>
         <img class="img-portfolio img-fluid" src="img/logo blue1.png">
+		<p>And now for a fact from the Chuck Norris API</p>
+        <h2 class="chucknorris font-creepster rcolor"></h2>
+        <div class="chuckimg"></div>
+        <img src="https://assets.chucknorris.host/img/avatar/chuck-norris.png">
       </div>
       <!-- /.container -->
     </section>
